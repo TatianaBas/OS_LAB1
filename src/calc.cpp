@@ -4,7 +4,7 @@
 
 auto main() -> int {
     int outputd;
-    outputd = open("output.txt", O_RDWR | O_CREAT, 0);
+    outputd = open("output.txt", O_RDWR | O_CREAT, 0666);
     std::string s = "0";
     char ch;
     int sum = 0;
